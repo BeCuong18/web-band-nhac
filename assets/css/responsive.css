@@ -1,0 +1,83 @@
+      /* PC */
+      @media (min-width: 1024px) {
+        
+    }
+    /* Tablet and mobile  */
+    @media (max-width: 1023px) {
+        .btn{
+            padding: 15px 16px;
+        }
+        .contact-form .form-control{
+            padding: 15px;
+
+        }
+        .socials-list {
+            font-size: 46px;
+        }
+        #footer .copyright a {
+           
+            padding: 12px 0;
+            display: inline-block;
+        }
+        .contac-infor{
+            font-size: 18px;
+            line-height: 2    ;
+        }
+       
+    }
+    /* Tablet */
+    @media (min-width: 740px) and (max-width: 1023px) {
+       
+    }
+     
+     /* mobile */
+     @media (max-width: 739px) {
+        .s-full-with,
+        .s-col-full{
+            width: 100% !important;
+        }
+        #header{
+            overflow: hidden;
+        }
+        #header .menu-mobile-btn{
+            display: block;
+        }
+        #header .search-btn {
+            display: none;
+        }
+        #nav {
+            display: block;
+        }
+        #nav  li {
+            display: block;
+            position: relative;
+        }
+        #nav > li:first-child{
+            display: inline-block;
+        }
+        #nav  li a {
+            padding:  1px 24px;
+        }
+        #nav .subnav{
+            position: initial;
+            background-color: grey;
+        }
+        #nav .subnav a {
+            color: white;
+            padding: 5px 41px;
+        }
+        
+        #content .member-img {
+            width: 60%;
+        }
+        .contac-form{
+            margin-top: 32px;
+            line-height: 1.6;
+        }
+        .s-mt-8{
+            margin-top: 8px;
+        }
+        
+    
+
+    }
